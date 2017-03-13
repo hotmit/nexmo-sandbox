@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block body %}
+    {% if message %}
+        <h1>{{ message }}</h1>
+    {% endif %}
+
+    {% crispy form %}
+{% endblock %}

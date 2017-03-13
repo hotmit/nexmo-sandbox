@@ -1,0 +1,9 @@
+.idea
+/static/
+/media/
+/keys/
+
+db.sqlite3
+nexmo_config.py
+migrations
+__pycache__
